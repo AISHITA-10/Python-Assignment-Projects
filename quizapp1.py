@@ -3,16 +3,16 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 
 questions = [
-    {"question": "What keyword is used to create a function in Python?", "options": ["def", "function", "func", "define"], "answer": "def"},
-    {"question": "Which of the following is a mutable data type in Python?", "options": ["list", "tuple", "string", "integer"], "answer": "list"},
-    {"question": "What is the output of print(2 ** 3)?", "options": ["6", "8", "9", "12"], "answer": "8"},
-    {"question": "Which of the following is a Python framework for web development?", "options": ["Django", "Numpy", "Pandas", "Scikit-learn"], "answer": "Django"},
-    {"question": "How do you start a comment in Python?", "options": ["//", "/*", "#", "<!--"], "answer": "#"},
-    {"question": "Which method is used to add an element at the end of a list?", "options": ["append()", "add()", "insert()", "extend()"], "answer": "append()"},
-    {"question": "What does 'PEP' stand for in Python?", "options": ["Python Enhancement Proposal", "Python Enhanced Performance", "Python Efficient Programming", "Python Enterprise Project"], "answer": "Python Enhancement Proposal"},
-    {"question": "What is the result of the expression '3' + '3'?", "options": ["6", "33", "9", "Error"], "answer": "33"},
-    {"question": "Which built-in function is used to get the length of a list?", "options": ["len()", "length()", "count()", "size()"], "answer": "len()"},
-    {"question": "Which of the following is a built-in data type in Python?", "options": ["set", "map", "filter", "reduce"], "answer": "set"}
+    {"question": "Q1. What keyword is used to create a function in Python?", "options": ["def", "function", "func", "define"], "answer": "def"},
+    {"question": "Q2. Which of the following is a mutable data type in Python?", "options": ["list", "tuple", "string", "integer"], "answer": "list"},
+    {"question": "Q3. What is the output of print(2 ** 3)?", "options": ["6", "8", "9", "12"], "answer": "8"},
+    {"question": "Q4. Which of the following is a Python framework for web development?", "options": ["Django", "Numpy", "Pandas", "Scikit-learn"], "answer": "Django"},
+    {"question": "Q5. How do you start a comment in Python?", "options": ["//", "/*", "#", "<!--"], "answer": "#"},
+    {"question": "Q6. Which method is used to add an element at the end of a list?", "options": ["append()", "add()", "insert()", "extend()"], "answer": "append()"},
+    {"question": "Q7. What does 'PEP' stand for in Python?", "options": ["Python Enhancement Proposal", "Python Enhanced Performance", "Python Efficient Programming", "Python Enterprise Project"], "answer": "Python Enhancement Proposal"},
+    {"question": "Q8. What is the result of the expression '3' + '3'?", "options": ["6", "33", "9", "Error"], "answer": "33"},
+    {"question": "Q9. Which built-in function is used to get the length of a list?", "options": ["len()", "length()", "count()", "size()"], "answer": "len()"},
+    {"question": "Q10. Which of the following is a built-in data type in Python?", "options": ["set", "map", "filter", "reduce"], "answer": "set"}
 ]
 
 class QuizApplication:
